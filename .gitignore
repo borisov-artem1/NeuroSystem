@@ -1,0 +1,48 @@
+# Игнорируем файлы Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Игнорируем виртуальное окружение
+venv/
+env/
+*.venv
+
+# Игнорируем Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Игнорируем файлы данных
+data/
+*.csv
+*.xlsx
+*.json
+*.db
+*.sqlite3
+
+# Игнорируем результаты экспериментов
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Игнорируем логи и кеши
+logs/
+*.log
+*.out
+*.err
+*.tmp
+.DS_Store
+
+# Игнорируем настройки IDE и среды разработки
+.vscode/
+.idea/
+*.iml
+
+# Игнорируем зависимости (если используем poetry/pipenv)
+pip-log.txt
+poetry.lock
+Pipfile.lock
+
+# Игнорируем файлы Docker и кэши
+docker-compose.override.yml
+*.dockerfile
