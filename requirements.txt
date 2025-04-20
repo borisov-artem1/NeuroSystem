@@ -7,3 +7,6 @@ umap-learn
 plotly
 scipy
 kneed
+nltk
+pymorphy3
+gensim
